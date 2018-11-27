@@ -67,4 +67,5 @@ setup(
     python_requires='>=3',
     include_package_data=True,
     packages=['btgym'],
+    zip_safe=False
 )
