@@ -66,7 +66,7 @@ setup(
     ],
     python_requires='>=3',
     include_package_data=True,
-#     packages=find_packages('btgym'),
-#     package_dir={'':'btgym'},
+    packages=find_packages('btgym'),
+    package_dir={'':'btgym'},
     zip_safe=False
 )
